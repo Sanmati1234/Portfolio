@@ -1,7 +1,11 @@
-# Sanmati's portfolio (static HTML + Gemini chatbot on Vercel)
+# Sanmati's portfolio
 
-1. Get a free key at https://aistudio.google.com/apikey
-2. (Done) LinkedIn and GitHub links are set. To use real project screenshots, add PNGs to projects/ and change the img src in index.html
-3. Push this folder to GitHub, import it at https://vercel.com/new
-4. Vercel > Project > Settings > Environment Variables: add GEMINI_API_KEY (and optionally GEMINI_MODEL), then Redeploy
-5. Local test: npm i -g vercel, then `vercel dev` (put keys in .env.local)
+Personal portfolio showcasing projects, technical skills, data analytics work, and software development experience. Built with static HTML and a Gemini-powered chatbot, and ready to deploy on Vercel.
+
+## Setup
+
+1. Get a Gemini API key at https://aistudio.google.com/apikey.
+2. Set `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`) in your Vercel project's environment variables.
+3. Deploy the project on Vercel. For local development, install the Vercel CLI and run `vercel dev` with the key in `.env.local`.
+
+The LinkedIn and GitHub links are configured in `index.html`. Project screenshots are in `projects/`.
